@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AE28389F20F64A950076E5FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE28389E20F64A950076E5FE /* AppDelegate.swift */; };
-		AE2838A120F64A950076E5FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2838A020F64A950076E5FE /* ViewController.swift */; };
+		AE2838A120F64A950076E5FE /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2838A020F64A950076E5FE /* GoalsVC.swift */; };
 		AE2838A420F64A950076E5FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2838A220F64A950076E5FE /* Main.storyboard */; };
 		AE2838A720F64A950076E5FE /* goalpost.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE2838A520F64A950076E5FE /* goalpost.xcdatamodeld */; };
 		AE2838A920F64A980076E5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2838A820F64A980076E5FE /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		AE28389B20F64A950076E5FE /* goalpost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goalpost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE28389E20F64A950076E5FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE2838A020F64A950076E5FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE2838A020F64A950076E5FE /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
 		AE2838A320F64A950076E5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE2838A620F64A950076E5FE /* goalpost.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpost.xcdatamodel; sourceTree = "<group>"; };
 		AE2838A820F64A980076E5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		AE2838B420F64B5F0076E5FE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				AE2838A020F64A950076E5FE /* ViewController.swift */,
+				AE2838A020F64A950076E5FE /* GoalsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2838A720F64A950076E5FE /* goalpost.xcdatamodeld in Sources */,
-				AE2838A120F64A950076E5FE /* ViewController.swift in Sources */,
+				AE2838A120F64A950076E5FE /* GoalsVC.swift in Sources */,
 				AE28389F20F64A950076E5FE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
